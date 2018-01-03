@@ -1,0 +1,1123 @@
+/*---------------*/
+/* NAVBAR STYLES */
+/*---------------*/
+
+.navbar{
+	-webkit-transition: all 0.6s ease-out;
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+	-ms-transition: all 0.6s ease-out;
+	transition: all 0.6s ease-out;
+}
+
+
+.navbar-brand{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin:0 auto;
+	font-family: "Impact";
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-brand {
+	color: rgb(50, 86, 140);
+}
+.navbar-inverse .navbar-brand:hover {
+	color: rgb(112, 148, 201);
+}
+
+/* Put the dropdown in front the header link */
+.navbar-toggle{
+	z-index: 10;
+}
+
+.navbar.scrolled{
+	background: rgb(100, 100, 100); /* IE */
+	background: rgba(100, 100, 100, 0.9); /* NON-IE */
+}
+
+
+
+/*===========================================================================*/
+/*===========================================================================*/
+
+
+/*********************/
+/* JUMBROTRON STYLES */
+/*********************/
+
+/* Baseline mobile styles */
+.jumbotron{
+	margin: 0px;
+	background-image: linear-gradient(rgba(200,200,200,.2), rgba(200,200,200,.2)), url(img/frontpage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	color: #fff;
+	font-family: Verdana;
+	padding-left: 5%;
+	text-shadow: 2px 2px #333;
+	opacity: 0.9;
+}
+
+.jumbotron h1{
+	margin-top: 140px;
+	font-size: 64px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.jumbotron p{
+	margin-top: -20px;
+	font-size: 22px;
+	text-align: left;
+}
+
+/* Slightly larger fonts for sideways phones */
+@media only screen and (min-width: 500px)
+{
+	.jumbotron{
+		padding-left: 15%;
+	}
+
+	.jumbotron h1{
+		margin-top: 150px;
+		font-size: 80px;
+	}
+	.jumbotron p{
+		font-size: 26px;
+	}
+}
+
+/* Larger fonts for tablets */
+@media only screen and (min-width: 768px)
+{
+	.jumbotron{
+		height: 600px;
+	}
+	.jumbotron h1{
+		margin-top: 200px;
+		font-size: 90px;
+	}
+	.jumbotron p{
+		font-size: 28px;
+	}
+}
+
+
+/* Even larger fonts for desktops */
+@media only screen and (min-width: 992px)
+{
+	.jumbotron h1{
+		font-size: 96px;
+	}
+	.jumbotron p{
+		font-size: 32px;
+	}
+}
+
+
+
+/*===========================================================================*/
+/*===========================================================================*/
+
+
+/*******************/
+/* ABOUT ME STYLES */
+/*******************/
+
+
+.about{
+	background-color: #000000;
+}
+
+.about .pic{
+	background-image: url(img/me.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+}
+
+/* .about .pic:hover {
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/me.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+}
+ */
+.tagcloud{
+	font: "Arial Bold";
+	font-weight: bolder;
+	height: 600px;
+	background-color: #202020;
+	position: relative;
+	text-align: center;
+}
+
+.tagcloud div{
+	position: absolute;
+}
+
+.tagcloud a{
+	text-decoration: none;
+	white-space: nowrap;
+	color: inherit;
+}
+.tagcloud a:hover{
+	text-decoration: underline;
+}
+.tagcloud .l1{
+	font-size: 8vw;
+	cursor: pointer;
+}
+.tagcloud .l2{
+	font-size: 7.25vw;
+	cursor: pointer;
+}
+.tagcloud .l3{
+	font-size: 6.5vw;
+	cursor: pointer;
+}
+.tagcloud .l4{
+	font-size: 5.5vw;
+	cursor: pointer;
+}
+.tagcloud .l5{
+	font-size: 5vw;
+	cursor: pointer;
+}
+.tagcloud .l6{
+	font-size: 4.5vw;
+	cursor: pointer;
+}
+.tagcloud .l7{
+	font-size: 4vw;
+	cursor: pointer;
+}
+#pic{
+	border: 1px solid #000;
+	height: 400px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#computervision{
+	color: #c9d35f;
+	top: 7px;
+	left: 20%;
+}
+#swimming{
+	color: #09c9b9;
+	top: 530px;
+	left: 5%;
+}
+#research-tag{
+	color: #ba612e;
+	top: 80px;
+	left: 67%;
+}
+#waterpolo{
+	color: #4b7711;
+	top: 440px;
+	left: 2.5%;
+}
+#scuba{
+	color: #1bb1fc;
+	top: 460px;
+	left: 76.6%;
+}
+#trivia{
+	color: #24f238;
+	top: 230px;
+	left: 4%;
+}
+#classiccinema{
+	color: #7f7f7f;
+	top: 520px;
+	left: 59%;
+}
+#classiclit{
+	color: #9862d6;
+	top: 70px;
+	left: 5%;
+}
+#triathlon{
+	color: #824444;
+	top: 330px;
+	left: 2%;
+}
+#nyy{
+	color: #0a18d6;
+	top: 125px;
+	left: 7%;
+}
+#travel{
+	color: #ef6ee0;
+	top: 240px;
+	left: 83%;
+}
+#nyg{
+	color: #ed0404;
+	top: 170px;
+	left: 79%;
+}
+#theatre{
+	color: #f7ea00;
+	top: 300px;
+	left: 80%;
+}
+#chess{
+	color: #bcb7b7;
+	top: 370px;
+	left: 78%;
+}
+
+
+/* For mobile except iphones */
+@media only screen and (min-width: 500px)
+{
+	.tagcloud .l1{
+		font-size: 8vw;
+	}
+	.tagcloud .l2{
+		font-size: 6.5vw;
+	}
+	.tagcloud .l3{
+		font-size: 5.75vw;
+	}
+	.tagcloud .l4{
+		font-size: 5vw;
+	}
+	.tagcloud .l5{
+		font-size: 4.25vw;
+	}
+	.tagcloud .l6{
+		font-size: 3.5vw;
+	}
+	.tagcloud .l7{
+		font-size: 3vw;
+	}
+	#pic{
+		border: 1px solid #000;
+		height: 400px;
+		margin-top: 100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#computervision{
+		top: 7px;
+		left: 20%;
+	}
+	#swimming{
+		top: 490px;
+		left: 5%;
+	}
+	#research-tag{
+		top: 130px;
+		left: 70.8%;
+	}
+	#waterpolo{
+		top: 410px;
+		left: 4.5%;
+	}
+	#scuba{
+		top: 460px;
+		left: 76.6%;
+	}
+	#trivia{
+		top: 350px;
+		left: 14%;
+	}
+	#classiccinema{
+		top: 520px;
+		left: 59%;
+	}
+	#classiclit{
+		top: 120px;
+		left: 5%;
+	}
+	#triathlon{
+		top: 290px;
+		left: 6%;
+	}
+	#nyy{
+		top: 185px;
+		left: 10%;
+	}
+	#travel{
+		top: 300px;
+		left: 85%;
+	}
+	#nyg{
+		top: 225px;
+		left: 76%;
+	}
+	#theatre{
+		top: 350px;
+		left: 75%;
+	}
+	#chess{
+		top: 410px;
+		left: 71%;
+	}
+}
+
+/* For small desktops */
+@media only screen and (min-width: 992px)
+{
+	.about .pic{
+		height: 500px;
+	}
+	.tagcloud{
+		height: 500px;
+	}
+	.tagcloud .l1{
+		font-size: 4vw;
+	}
+	.tagcloud .l2{
+		font-size: 3.25vw;
+	}
+	.tagcloud .l3{
+		font-size: 3vw;
+	}
+	.tagcloud .l4{
+		font-size: 2.75vw;
+	}
+	.tagcloud .l5{
+		font-size: 2.25vw;
+	}
+	.tagcloud .l6{
+		font-size: 2vw;
+	}
+	.tagcloud .l7{
+		font-size: 1.75vw;
+	}
+	#computervision{
+		top: 10px;
+		left: 17.5%;
+	}
+	#swimming{
+		top: 195px;
+		left: 52%;
+	}
+	#research-tag{
+		top: 380px;
+		left: 70.8%;
+	}
+	#waterpolo{
+		top: 335px;
+		left: 14.3%;
+	}
+	#scuba{
+		top: 100px;
+		left: 76.6%;
+	}
+	#trivia{
+		top: 90px;
+		left: 9%;
+	}
+	#classiccinema{
+		top: 440px;
+		left: 54%;
+	}
+	#classiclit{
+		top: 110px;
+		left: 35%;
+	}
+	#triathlon{
+		top: 180px;
+		left: 15%;
+	}
+	#nyy{
+		top: 275px;
+		left: 47%;
+	}
+	#travel{
+		top: 300px;
+		left: 80.2%;
+	}
+	#nyg{
+		top: 420px;
+		left: 20.2%;
+	}
+	#theatre{
+		top: 390px;
+		left: 47.8%;
+	}
+	#chess{
+		top: 270px;
+		left: 14%;
+	}
+}
+
+/* For big desktops */
+@media only screen and (min-width: 1200px)
+{
+	.about .pic{
+		height: 600px;
+	}
+	.tagcloud{
+		height: 600px;
+	}
+	.tagcloud .l1{
+		font-size: 4vw;
+	}
+	.tagcloud .l2{
+		font-size: 3.25vw;
+	}
+	.tagcloud .l3{
+		font-size: 2.75vw;
+	}
+	.tagcloud .l4{
+		font-size: 2.25vw;
+	}
+	.tagcloud .l5{
+		font-size: 2vw;
+	}
+	.tagcloud .l6{
+		font-size: 1.75vw;
+	}
+	.tagcloud .l7{
+		font-size: 1.5vw;
+	}
+	#computervision{
+		top: 10px;
+	}
+	#swimming{
+		top: 210px;
+	}
+	#research-tag{
+		top: 410px;
+	}
+	#waterpolo{
+		top: 375px;
+	}
+	#scuba{
+		top: 130px;
+	}
+	#trivia{
+		top: 130px;
+	}
+	#classiccinema{
+		top: 500px;
+	}
+	#classiclit{
+		top: 150px;
+	}
+	#triathlon{
+		top: 220px;
+	}
+	#nyy{
+		top: 315px;
+	}
+	#travel{
+		top: 330px;
+	}
+	#nyg{
+		top: 470px;
+	}
+	#theatre{
+		top: 440px;
+	}
+	#chess{
+		top: 300px;
+	}
+}
+
+
+
+
+/*===========================================================================*/
+/*===========================================================================*/
+
+/*************/
+/* CV STYLES */
+/*************/
+
+
+.schools{
+	background-image: linear-gradient(rgba(155,155,155,.6), rgba(155,155,155,.6)), url(img/franklin_street.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+}
+
+.schools h1{
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.schools h3{
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.schools p{
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.schools #academics-tabs-accordion{
+	margin-bottom: 0px;
+}
+
+.schools .panel-heading{
+	background-color: rgba(200, 200, 200, 0.4);
+}
+.schools .panel-default{
+	background-color: rgba(255, 255, 255, 0.4);
+}
+.schools .panel-title{
+	font-size: 16px;
+	font-weight: bold;
+}
+.schools .panel-collapse a{
+	color: #111;
+}
+
+.schools img{
+	margin-right: 10px;
+	height: 50px;
+}
+
+.schools #unc-collapse{
+	background-color: rgba(75, 156, 211, 0.4);
+}
+
+.schools #bu-collapse{
+	background-color: rgba(204, 0, 0, 0.4);
+}
+
+.schools #brandeis-collapse{
+	background-color: rgba(0, 112, 255, 0.4);
+}
+
+@media only screen and (min-width: 500px)
+{
+	.schools img{
+		height: 75px;
+	}
+
+	.schools .panel-title{
+		font-size: 20px;
+	}
+}
+
+/* Define tabular layout for tablets and up */
+@media only screen and (min-width: 768px)
+{
+	.schools h1{
+		font-weight: bold;
+		font-size: 28px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+
+	.schools h3{
+		font-weight: bold;
+		font-size: 20px;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+
+	.schools p{
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+	/* Tab general styles */
+	.schools .nav-tabs>li>a{
+		height: 160px;
+		font-size: 18px;
+		font-weight: bold;
+		color: #ffffff;
+		border: 0px;
+	}
+
+	.nav-tabs.nav-justified>.active>a,
+	.nav-tabs.nav-justified>.active>a:hover,
+	.schools .nav-tabs.nav-justified>.active>a:focus {
+		border: 0px;
+	}
+
+	.nav>li>a:focus,
+	.schools .nav>li>a:hover {
+		text-decoration: none;
+		color: #aaaaaa;
+	}
+
+	/* Logos in each tab */
+	.schools .nav>li>a img{
+		margin-bottom: 10px;
+	}
+
+	/* Content of tabs */
+	.schools .tab-content .tab-pane {
+		padding: 20px;
+		color: white;
+		height: 440px;
+		min-width: 760px;
+	}
+
+	.schools .tab-content .tab-pane a{
+		color: #111;
+	}
+
+	/* Brandeis tab styles */
+	.schools .nav-tabs>li.active.deis-blue>a{
+		background-color: rgba(0, 112, 255, 0.6);
+		color: white;
+	}
+	.schools .nav-tabs>li.deis-blue>a{
+		background-color: rgba(0, 112, 255, 0.6);
+		min-width: 270px;
+	}
+
+	.nav-justified>li>a.deis-blue,
+	.nav-justified>li.active>a.deis-blue,
+	.nav-justified>li.active>a.deis-blue:hover,
+	.nav-justified>li.active>a.deis-blue:focus,
+	.schools .tab-pane.deis-blue {
+		background-color: rgba(0, 112, 255, 0.6);
+		border: 0;
+	}
+
+	/* BU tab styles */
+	.schools .nav-tabs>li.active.bu-red>a{
+		background-color: rgba(204, 0, 0, 0.5);
+		color: white;
+	}
+	.schools .nav-tabs>li.bu-red>a{
+		background-color: rgba(204, 0, 0, 0.5);
+		min-width: 220px;
+	}
+	.nav-justified>li>a.bu-red,
+	.nav-justified>li.active>a.bu-red,
+	.nav-justified>li.active>a.bu-red:hover,
+	.schools .tab-pane.bu-red {
+		background-color: rgba(204, 0, 0, 0.5);
+		border: 0;
+	}
+
+	/* Carolina tab styles */
+	.schools .nav-tabs>li.active.carolina-blue>a{
+		background-color: rgba(75, 156, 211, 0.5);
+		color: white;
+	}
+	.schools .nav-tabs>li.carolina-blue>a{
+		background-color: rgba(75, 156, 211, 0.5);
+		border: 0;
+		min-width: 270px;
+	}
+	.nav-justified>li>a.carolina-blue,
+	.nav-justified>li.active>a.carolina-blue,
+	.nav-justified>li.active>a.carolina-blue:hover,
+	.schools .tab-pane.carolina-blue {
+		background-color: rgba(75, 156, 211, 0.5);
+		border: 0;
+	}
+	.schools .carolina-border{
+		border: 2px solid #4B9CD3;
+	}
+}
+
+/* Slightly larger text and wider widths for desktops */
+@media only screen and (min-width: 992px)
+{
+
+	.schools h1{
+		font-size: 36px;
+	}
+	.schools h3{
+		font-size: 24px;
+	}
+	.schools p{
+		margin-top: 10px;
+		font-size: 20px;
+	}
+
+	/* Tab general styles */
+	.schools .nav-tabs>li>a{
+		height: 130px;
+		font-size: 18px;
+	}
+
+	/* Content of tabs */
+	.schools .tab-content .tab-pane {
+		height: 470px;
+		min-width: 980px;
+	}
+
+
+	/* Tab styles */
+	.schools .nav-tabs>li.deis-blue>a{
+		min-width: 340px;
+	}
+	.schools .nav-tabs>li.bu-red>a{
+		min-width: 300px;
+	}
+	.schools .nav-tabs>li.carolina-blue>a{
+		min-width: 340px;
+	}
+}
+
+
+
+/*===========================================================================*/
+/*===========================================================================*/
+
+/*******************/
+/* RESEARCH STYLES */
+/*******************/
+
+/* General styles for this row block */
+.research{
+	background-image: url(img/berchtesgaden.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color:  #333;
+}
+
+.research .panel-heading, .research .panel-footer {
+	height: 90px;
+	background-color: rgba(53, 54, 55, 0.7);
+	color: #fff;
+	border: 0px;
+	border-radius: 0px;
+}
+
+.research .panel-default{
+	border: 0px;
+	padding: 0px;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+/* Internship column styles */
+.research .internships{
+	background-color: rgba(255, 255, 255, .5);
+	height: 600px;
+	text-align: left;
+}
+.research .internships img{
+	border: 0px;
+	height: 75px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.research .internships a h4{
+	color: #333;
+	font-size: 18px;
+}
+.research .internships p{
+	font-size: 14px;
+}
+.research .internships hr{
+	border-color: #777;
+}
+.research .internships .media-right, .research .internships .media-left{
+	vertical-align: middle;
+}
+
+/* Projects column styles */
+.research .projects{
+	background-color: rgba(100, 100, 100, .4);
+	height: 500px;
+}
+.research .projects .panel-body{
+	padding: 0px;
+}
+.research .projects .item{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 410px;
+}
+.research .projects .bg-streetview{
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 95%), url(img/streetview.jpg);
+}
+.research .projects .bg-misc{
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 95%), url(img/code.jpg);
+}
+
+/* Papers column styles */
+.research .papers{
+	height: 500px;
+	background-color: rgba(255, 255, 255, .5);
+	text-align: left;
+}
+.research .papers a{
+	font-style: italic;
+	color: #0f3066;
+}
+.research .papers .panel-body{
+	height: 410px;
+	overflow-y: auto;
+}
+
+.research .papers .year{
+	margin-top: 15px;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.research .papers .google-scholar{
+	margin-top: -5px;
+	font-size: 16px;
+}
+
+
+@media only screen and (min-width: 500px)
+{
+	.research .internships{
+		height: 500px;
+	}
+	.research .internships h4{
+		font-size: 18px;
+	}
+	.research .internships p{
+		font-size: 15px;
+	}
+	.research .projects{
+		height: 400px;
+	}
+	.research .projects .item{
+		height: 310px;
+	}
+	.research .papers{
+		height: 400px;
+	}
+}
+
+@media only screen and (min-width: 992px)
+{
+	.research .panel-heading, .research .panel-footer {
+		height: 90px;
+		background-color: rgba(53, 54, 55, 0.7);
+		color: #fff;
+		text-align: center;
+	}
+	.research .internships{
+		height: 600px;
+	}
+	.research .internships img{
+		height: 50px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.research .internships h4{
+		font-size: 16px;
+	}
+	.research .internships p{
+		font-size: 14px;
+	}
+	.research .projects{
+		height: 600px;
+	}
+	.research .projects .item{
+		height: 510px;
+	}
+	.research .papers{
+		height: 600px;
+	}
+	.research .papers .year{
+		font-size: 20px;
+	}
+	.research .papers p{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 1200px)
+{
+	.research .internships img{
+		height: 75px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.research .internships h4{
+		font-size: 18px;
+	}
+	.research .internships p{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 1400px)
+{
+	.research .internships{
+		height: 520px;
+	}
+	.research .projects{
+		height: 520px;
+	}
+	.research .projects .item{
+		height: 430px;
+	}
+	.research .papers{
+		height: 520px;
+	}
+}
+
+/*===========================================================================*/
+/*===========================================================================*/
+
+/******************/
+/* CONTACT STYLES */
+/******************/
+
+
+.contact{
+	background-image: linear-gradient(rgba(155,155,155,.6), rgba(155,155,155,.6)), url(img/hallstatt.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 650px;
+}
+
+.contact .pic{
+	height: 200px;
+}
+
+.contact img{
+		width: 	100px;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid #000000;
+}	
+
+.contact ul{
+	list-style: none;
+	margin-top: 40px;
+}
+
+.contact .fa, .contact p{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contact li{
+	margin-bottom: 10px;
+}
+
+.contact li a{
+	color: rgb(7, 45, 102);
+}
+
+.contact li a:hover{
+	color: rgb(181, 201, 229);
+}
+
+.contact fa{
+	margin-right: 10px;
+}
+
+.contact p{
+	font-size: 3vw;
+	margin-left: 10px;
+}
+
+.contact .fa{
+	font-size: 4em;
+}
+
+.contact img{
+	width: 200px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #000000;
+}	
+
+
+/* Slightly larger text and wider widths for desktops */
+@media only screen and (min-width: 768px)
+{
+	.contact{
+		height: 600px;
+	}
+	.contact ul{
+		margin-top: 115px;
+	}
+	.contact li{
+		margin-bottom: 20px;
+	}
+	.contact p{
+		font-size: 2vw;
+		margin-left: 20px;
+	}
+	.contact img{
+		width: 300px;
+		margin-top: 150px;
+		border: 1px solid #000000;
+	}	
+	.contact .fa{
+		font-size: 5em;
+	}
+}
+
+@media only screen and (min-width: 992px)
+{
+	.contact ul{
+		margin-top: 90px;
+	}
+	.contact img{
+		margin-top: 125px;
+	}
+}
+
+@media only screen and (min-width: 1200px)
+{
+	.contact ul{
+		margin-top: 100px;
+	}
+	.contact img{
+		margin-top: 150px;
+	}
+}
+
+
+/*===========================================================================*/
+/*===========================================================================*/
+
+/*****************/
+/* FOOTER STYLES */
+/*****************/
+
+footer{
+	margin-top: -20px;
+	min-height: 20px;
+	color: #ffffff;
+	background-color: #353637;
+	text-align: center;
+}
+
+
+
+
+/*===========================================================================*/
+/*===========================================================================*/
+
+/******************/
+/* UTILITY STYLES */
+/******************/
+
+.spacer{
+	background-color: #000;
+	height: 20px;
+}
+.bold{font-weight: bold;}
+.italic{font-style: italic;}
+.no-padding{padding: 0;}

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Marc Eder</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Computer vision researcher at UNC-Chapel Hill.">
+	<meta name="keywords" content="UNC, computer vision, machine learning, PhD, research">
+	<meta name="author" content="Marc Eder">
+
+	<!-- Local copies of style libraries -->
+<!-- 	<link href="../bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ -->	
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<!-- Button appears when at the sm-md breakpoint as nav collapse -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-navbar">
+					<!-- Spans show the little bars in the button -->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>    
+				<a class="navbar-brand" href="">MCE</a>
+			</div>
+			<div class="navbar-collapse collapse" id="collapsable-navbar">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="#aboutme">About Me</a></li>
+					<li><a href="#academics">Academics</a></li>
+					<li><a href="#research">Research</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#contact"><i class="fa fa-lg fa-envelope"></i></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/marceder" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a>
+					</li>
+					<li>
+						<a href="https://www.github.com/meder411" target="_blank"><i class="fa fa-lg fa-github"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+		<div class="container-fluid">
+			<h1>Marc Eder</h1>
+			<!-- Shows on tablets and up -->
+			<p class="hidden-xs">Graduate Research Assistant in 3D Computer Vision</p>
+			<p class="bold hidden-xs">University of North Carolina at Chapel Hill</p>
+			<!-- Shows on phones -->
+			<p class="hidden-sm hidden-md hidden-lg">Graduate Research Assistant</p>
+			<p class="italic hidden-sm hidden-md hidden-lg">3D Computer Vision</p>
+			<p class="bold hidden-sm hidden-md hidden-lg">UNC - Chapel Hill</p>
+
+		</div>
+		<!-- End container-fluid -->
+	</div>
+	<!-- End jumbotron -->
+
+
+	<div class="container-fluid">
+		<div class="row spacer"></div>
+		<div class="row about" id="aboutme">
+			<div class="visible-md visible-lg col-md-6 pic"></div>
+			<div class="col-md-6 col-xs-12 col-centered tagcloud">
+				<img src="img/me2_close.jpg" id="pic" class="hidden-md hidden-lg img-circle img-responsive">
+				<div class="l1" id="computervision">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Interested in augmented reality and deep learning for scene geometry">
+						Computer Vision</a>
+				</div>
+				<div class="l2" id="swimming">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Former standout breaststroker at Brandeis University. Current masters swimmer.">
+						Swimming
+					</a>
+				</div>
+				<div class="l3" id="research-tag">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Currently pursuing my PhD in Jan-Michael Frahm's 3D Vision Lab at UNC-Chapel Hill">
+						Research
+					</a>
+				</div>
+				<div class="l4" id="waterpolo">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Lefty shooter and 2-meter defender">
+						Water Polo
+					</a>
+				</div>
+				<div class="l5" id="scuba">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="PADI Master Diver">
+						SCUBA
+					</a>
+				</div>
+				<div class="l5" id="trivia">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Wannabe Jeopardy contestant, many time pub-trivia champion">
+						Trivia
+					</a>
+				</div>
+				<div class="l5" id="classiccinema">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="&quot;It's a Wonderful Life&quot; is more than just a Christmas movie and &quot;Casablanca&quot; has incredible staying power">
+						Classic Cinema
+					</a>
+				</div>
+				<div class="l6" id="classiclit">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="My favorite book is &quot;The Count of Monte Cristo&quot;">
+						Classic Literature
+					</a>
+				</div>
+				<div class="l6" id="triathlon">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Competed in 8 triathlons from sprint-distance to half-Ironman">
+						Triathlon
+					</a>
+				</div>
+				<div class="l6" id="nyy">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Life-long fan of the greatest franchise in sports">
+						New York<br>Yankees
+					</a>
+				</div>
+				<div class="l6" id="travel">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Aspiring world traveler">
+						Travel
+					</a>
+				</div>
+				<div class="l7" id="nyg">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Big fan of Big Blue">
+						New York<br>Giants
+					</a>
+				</div>
+				<div class="l7" id="theatre">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Guys &amp; Dolls is my favorite musical">
+						Theatre
+					</a>
+				</div>
+				<div class="l7" id="chess">
+					<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Avid chess player">
+						Chess
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="row spacer"></div>
+
+		<div class="row schools" id="academics">
+			<div class="col-lg-2 visible-lg"></div>
+			<div class="col-lg-8 col-xs-12 col- col-pane no-padding">
+				<ul id="academics-tabs" class="nav nav-tabs nav-justified">
+					<li class="active carolina-blue">
+						<a data-toggle="tab" href="#unc">
+							<img class="visible-xs-inline" src="img/unc_sm.png" alt="unc_logo">
+							<img class="carolina-border hidden-xs" src="img/unc.png" alt="unc_logo">
+							<br class="hidden-xs">
+							Ph.D. Computer Science (ongoing)
+						</a>
+					</li>
+					<li class="bu-red">
+						<a data-toggle="tab" href="#bu">
+							<img class="visible-xs-inline" src="img/bu_logo_sm.png" alt="bu_logo">
+							<img class="hidden-xs" src="img/bu.png" alt="bu_logo">
+							<br class="hidden-xs">
+							M.S. Electrical Engineering
+						</a>
+					</li>
+					<li class="deis-blue">
+						<a data-toggle="tab" href="#brandeis">
+							<img id="deis-logo" src="img/brandeis.png" alt="brandeis_logo">
+							<br class="hidden-xs">
+							B.A. History, Middle Eastern Studies
+						</a>
+					</li>
+				</ul>
+
+				<div class="tab-content">
+					<div id="unc" class="tab-pane fade in active carolina-blue">
+						<h1>University of North Carolina at Chapel Hill</h1>
+						<h3>M.S. Computer Science, 2017</h3>
+						<h3>Ph.D. Computer Science (Computer Vision), expected 2020</h3>
+						<hr>
+						<p>I am currently a PhD student in computer vision at the University of North Carolina at Chapel Hill, advised by <a target="_blank" href="http://frahm.web.unc.edu/">Professor Jan-Michael Frahm</a>. I generally work in the realm of 3D computer vision. Previous projects have included analysis of neural-network-based salient feature matching algorithms for structure from motion and a post-processing AR system for visualizing landscape improvements. Most recently I have moved into deep learning, addressing problems of 3D semantics and geometry.</p>
+					</div>
+					
+					<div id="bu" class="tab-pane fade bu-red">
+						<h1>Boston University</h1>
+						<h3>M.S. Electrical Engineering (Signal Processing), 2015</h3>
+						<hr>
+						<p>I enrolled at Boston University two days after graduating from undergrad. I spent the first year in the <a target="_blank" href="http://www.bu.edu/eng/academics/special-programs/leap/">Late Entry Accelerated Program (LEAP)</a>, a post-baccalaureate program designed to prepare non-engineering students for a graduate engineering degree. During this year, I was honored with a scholarship as a LEAP Merit Scholar.<br><br>
+
+						Upon completing the LEAP program, I was admitted to Boston University's Masters program for electrical engineering, specializing in signal processing. In my final semester, I was a research assistant for <a target="_blank" href="http://www.bu.edu/eng/profile/venkatesh-saligrama/">Professor Venkatesh Saligrama</a> at BU for projects related to person re-identification from video, visual search, and video retrieval.</p>
+					</div>
+
+					<div id="brandeis" class="tab-pane fade deis-blue">
+						<h1>Brandeis University</h1>
+						<h3><b>B.A. History <i>with honors</i>, Islamic &amp; Middle Eastern Studies <i>with honors</i>, <i>cum laude</i>, 2012</b></h3>
+						<h3>Minors: Economics, Computer Science</h3>
+						<hr>
+						<p>At the beginning of college, I desired a career in law or government. Consequently, my undergraduate degrees from Brandeis University are in history and Islamic and Middle Eastern studies. In my senior year, I received honors in both majors for my senior thesis on the 1882 British invasion of Egypt.<br><br>
+
+						I took my first computer science course as a junior, and became hooked on its analytical nature. I spent the last 3 semesters of college as a teaching assistance for the CS department and picked up a minor as well. Two days after graduating Brandeis, I started the transition to engineering through Boston University's <a target="_blank" href="http://www.bu.edu/eng/academics/special-programs/leap/">Late Entry Accelerated Program (LEAP)</a>.<br><br>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 visible-lg"></div>
+		</div>
+
+		<div class="row spacer"></div>
+
+		<div class="row research" id="research">
+			<div class="col-md-4 col-xs-12 panel panel-default internships">
+				<div class="panel-heading"><h2>Industry Experiences</h2></div>
+				<div class="panel-body">
+
+					<div class="media">
+						<div class="media-left">
+							<a href="https://www.symantec.com/" target="_blank">
+								<img src="img/symantec.png" class="media-object">
+							</a>
+						</div>
+						<div class="media-body">
+							<a  data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Symantec, Waltham, MA">
+								<h4 class="media-heading">Software Engineering Intern, Summer 2014</h4>
+							</a>
+							<p>Wrote Java applications to facilitate server communication tests on notification services platform</p>
+						</div>
+					</div>
+					<hr>
+					
+					<div class="media">
+						<div class="media-body">
+							<a ata-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Memorial Sloan Kettering Cancer Center, New York, NY">
+								<h4 class="media-heading">Data Science Intern, Summer 2015</h4>
+							</a>
+							<p>Designed and implemented framework for identifying  pneumothorax from X-ray images to aid interventional radiologists with diagnosis</p>
+						</div>
+						<div class="media-right">
+							<a href="https://www.mskcc.org/" target="_blank">
+								<img src="img/mskcc.png" class="media-object">
+							</a>
+						</div>
+					</div>
+					<hr>
+
+					<div class="media">
+						<div class="media-left">
+							<a href="http://www.hrl.com/" target="_blank">
+								<img src="img/hrl.png" class="media-object">
+							</a>
+						</div>
+						<div class="media-body">
+							<a data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="HRL Labs, Malibu, CA">
+								<h4 class="media-heading">Research Intern, Summer 2017</h4>
+							</a>
+							<p>Developed a system to generate 3D surface reconstructions from flash LIDAR pointclouds</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-md-4 col-xs-12 panel panel-default projects">
+				<div class="visible-xs visible-sm panel-heading"><h2>Projects</h2></div>
+				<div id="project-carousel" class="panel-body carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#project-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#project-carousel" data-slide-to="1"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+
+						<div class="item active bg-streetview">
+							<div class="carousel-caption">
+								<h3>Green Infrastructure Visualization</h3>
+								<p>Developed visualization software for green infrastructure landscape improvements to aid hydrologists in water reclamation efforts. Use structure-from-motion and 3D geometry to accurately model real-world scale and depth ordering.</p>
+							</div>
+						</div>
+
+						<div class="item bg-misc">
+							<div class="carousel-caption">
+								<h3>Miscellaneous Work</h3>
+								<p>Including a small C++ 3D transformation library (link coming soon!)</p>
+							</div>
+						</div>
+									
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#project-carousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#project-carousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<div class="hidden-xs hidden-sm panel-footer"><h2>Projects</h2></div>
+			</div>
+
+
+			<div class="col-md-4 col-xs-12 panel panel-default papers">
+				<div class="panel-heading"><h2>Publications</h2></div>
+				<div class="panel-body">
+					<div class="google-scholar">(<a href="https://scholar.google.com/citations?user=tH-A4S0AAAAJ&hl=en" target="_blank">Google Scholar Profile</a>)</div>
+					<div class="year">2018</div>
+					<ul>
+						<li><b>M. Eder</b>, J. Lim, and J.-M. Frahm. Paper under review, CVPR, 2018.</li>
+					</ul>
+					<div class="year">2015</div>
+					<ul>
+						<li>
+							M. Nahmias, B. Shastri, A. Tait, <b>M. Eder</b>, N. Rafidi, Y. Tian, and P. Prucnal, “Normalized pulsed energy thresholding in a nonlinear optical loop mirror,” Applied optics, vol. 54, no. 11, pp. 3218–3224, 2015.
+							<a href="docs/nolm_paper.pdf" target="_blank">link</a>
+						</li>
+					</ul>
+					<div class="year">2012</div>
+					<ul>
+						<li>
+							<b>Eder, Marc</b>. A Survey of Factors Leading to the 1882 British Invasion of Egypt. Honors Thesis. Brandeis University, 2012.
+							<a href="docs/undergrad_thesis.pdf" target="_blank">link</a>
+					</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="row spacer"></div>
+
+		<div class="row contact" id="contact">
+			<div class="col-lg-1 visible-lg"></div>
+			<div class="col-lg-3 col-sm-4 col-xs-12">
+				<img src="img/portrait.jpg" class="img-circle img-responsive" alt="portrait">
+			</div>
+			<div class="col-lg-7 col-sm-8 col-xs-12">
+				<ul>
+					<li>
+						<a><i class="fa fa-fw fa-5x fa-envelope"></i><p>Sitterson Hall<br>University of North Carolina at Chapel Hill<br>Chapel Hill, NC 27514</p></a>
+					</li>
+					<li>
+						<a><i class="fa fa-fw fa-5x fa-at"></i><p><b>meder</b> at <b>cs</b> dot <b>unc</b> dot <b>edu</b></p></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/marceder" target="_blank"><i class="fa fa-fw fa-5x fa-linkedin"></i><p>LinkedIn</p></a>
+					</li>
+					<li>
+						<a href="https://www.github.com/meder411" target="_blank"><i class="fa fa-fw fa-5x fa-github"></i><p>GitHub</p></a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-1 visible-lg"></div>
+		</div>
+
+	</div>
+
+	<footer>
+		&copy; 2017 Marc Eder
+	</footer>
+
+	<!-- Local copies of libraries -->
+	<!-- <script src="../bootstrap-3.3.7/js/jquery-3.2.1.min.js"></script> -->
+	<!-- <script src="../bootstrap-3.3.7/js/bootstrap.min.js"></script> -->
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	<script src="lib/bootstrap-tabcollapse-master/bootstrap-tabcollapse.js"></script>
+	<script src="scripts.js"></script>
+
+
+</body>
+</html>
+</head>
