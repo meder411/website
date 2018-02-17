@@ -1,4 +1,10 @@
+# robots.txt file for http://www.marceder.com
+
 User-agent: *
 Disallow: /img/background/
 Disallow: /img/logos/
 Disallow: /img/projects/
+Disallow: /docs/
+Disallow: /cgi-bin/
+Disallow: /lib/
+Disallow: /favicon.ico
