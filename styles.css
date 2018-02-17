@@ -51,7 +51,7 @@
 /* Baseline mobile styles */
 .jumbotron{
 	margin: 0px;
-	background-image: linear-gradient(rgba(200,200,200,.2), rgba(200,200,200,.2)), url(img/frontpage.jpg);
+	background-image: linear-gradient(rgba(200,200,200,.2), rgba(200,200,200,.2)), url(img/background/frontpage.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -135,7 +135,7 @@
 }
 
 .about .pic{
-	background-image: url(img/me.jpg);
+	background-image: url(img/me/me.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -143,7 +143,7 @@
 }
 
 /* .about .pic:hover {
-	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/me.jpg);
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/me/me.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -541,7 +541,7 @@
 
 
 .schools{
-	background-image: linear-gradient(rgba(155,155,155,.6), rgba(155,155,155,.6)), url(img/franklin_street.jpg);
+	background-image: linear-gradient(rgba(155,155,155,.6), rgba(155,155,155,.6)), url(img/background/franklin_street.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -782,7 +782,7 @@
 
 /* General styles for this row block */
 .research{
-	background-image: url(img/berchtesgaden.jpg);
+	background-image: url(img/background/berchtesgaden.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -845,10 +845,10 @@
 	height: 410px;
 }
 .research .projects .bg-streetview{
-	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 95%), url(img/streetview.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 95%), url(img/projects/streetview.jpg);
 }
 .research .projects .bg-misc{
-	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 95%), url(img/code.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 95%), url(img/projects/code.jpg);
 }
 
 /* Papers column styles */
@@ -979,7 +979,7 @@
 
 
 .contact{
-	background-image: linear-gradient(rgba(155,155,155,.6), rgba(155,155,155,.6)), url(img/hallstatt.jpg);
+	background-image: linear-gradient(rgba(155,155,155,.6), rgba(155,155,155,.6)), url(img/background/hallstatt.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

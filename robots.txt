@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /img/background/
+Disallow: /img/logos/
+Disallow: /img/projects/
